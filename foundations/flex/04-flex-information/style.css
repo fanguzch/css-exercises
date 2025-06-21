@@ -24,3 +24,30 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  align-self: center;
+}
+
+.plants-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding: 0 52px;
+}
+
+.plant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
